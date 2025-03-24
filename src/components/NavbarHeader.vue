@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar bg-base-100 shadow-sm mb-4">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <RouterLink to="/" class="btn btn-ghost text-xl">VueBlog</RouterLink>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
