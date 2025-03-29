@@ -3,6 +3,7 @@ import NavbarHeader from "@components/NavbarHeader.vue";
 import HeroSection from "@components/HeroSection.vue";
 import FooterMain from "@components/FooterMain.vue";
 import TitleBar from "@components/TitleBar.vue";
+import LatestPosts from "@components/LatestPosts.vue";
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import TitleBar from "@components/TitleBar.vue";
     :body="'This is a blog about Vue.js, Nuxt.js, and other web development technologies.'"
   />
   <TitleBar :title="'Latest Posts'" moreLink="/posts" />
+  <LatestPosts />
   <FooterMain />
 </template>
